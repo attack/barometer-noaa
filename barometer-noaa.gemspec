@@ -11,9 +11,9 @@ Gem::Specification.new do |spec|
   spec.summary       = spec.description
   spec.homepage      = 'https://github.com/attack/barometer-noaa'
   spec.license       = 'MIT'
-  
+
   spec.platform      = Gem::Platform::RUBY
-  spec.required_ruby_version = '>= 1.9.2'
+  spec.required_ruby_version = '>= 1.9.3'
 
   spec.files         = `git ls-files`.split($/)
   spec.test_files    = spec.files.grep(%r{^spec/})
