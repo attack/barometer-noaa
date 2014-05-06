@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files`.split($/)
   spec.test_files    = spec.files.grep(%r{^spec/})
   spec.require_paths = ['lib']
-  
-  spec.add_dependency 'barometer', '~> 0.9.6'
+
+  spec.add_dependency 'barometer', '~> 0.9.7'
   spec.add_development_dependency 'bundler'
 end
