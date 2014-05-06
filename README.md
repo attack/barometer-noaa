@@ -20,9 +20,7 @@ processing.
 
 ```ruby
 query = Barometer::Query.new('42.7243,-73.6927')
-keys = {client_id: 'client_id', client_secret: 'client_secret'}
-
-result = Barometer::Noaa.call(query, keys: keys)
+result = Barometer::Noaa.call(query)
 puts result.current.temperature.c
 ```
 
